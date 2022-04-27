@@ -8,6 +8,7 @@ import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
 import { TableProps } from "../../types";
+import { generateSearchUrl } from "../../utils/url";
 
 const StyledTableCell = styled(TableCell)(({ theme }) => ({
 	[`&.${tableCellClasses.head}`]: {
@@ -50,7 +51,11 @@ const CustomizedTables: React.FC<TableProps> = ({ carsData }) => {
 							<StyledTableCell>{car.model}</StyledTableCell>
 							<StyledTableCell>{car.price}</StyledTableCell>
 							<StyledTableCell>
-								<a href="/">
+								<a
+									href={generateSearchUrl(car.model)}
+									target="_blank"
+									rel="noreferrer"
+								>
 									<img
 										src="/new_tab_icon.png"
 										alt=""

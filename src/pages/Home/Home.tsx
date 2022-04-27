@@ -1,18 +1,14 @@
 import React, { useState, useEffect } from "react";
 import { Navbar, FilteredBrand, Table } from "../../components";
+import { ICar } from "../../types";
+import cars from "../../data/cars.json";
 import "./home.scss";
-
-const carsData = [
-	{ brand: "TOYOTA", model: "CAMRY YEAR (06-12)", price: 1400 },
-	{ brand: "MERCEDES-BENZ", model: "E-CLASS W 207 (YEAR09-12)", price: 6700 },
-	{ brand: "	BMW", model: "	I8", price: 49000 },
-];
 
 const Home: React.FC = () => {
 	const [brandSelected, setBrandSelected] = useState<string>("");
+	const [carsData, setCarsData] = useState<ICar[]>(cars);
 
 	useEffect(() => {
-		// fetching new data after brand has been changed
 		console.log(brandSelected);
 	}, [brandSelected]);
 

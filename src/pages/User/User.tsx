@@ -1,30 +1,9 @@
 import React from "react";
 import { Navbar, Accordion } from "../../components";
+import users from "../../data/users.json";
 import "./user.scss";
 
 const User: React.FC = () => {
-	const usersData = [
-		{
-			firstName: "Thanathip",
-			lastName: "Suwannakhot",
-			age: 20,
-			phone: "0951683442",
-		},
-		{
-			firstName: "Sirawich",
-			lastName: "Tumtamai",
-			age: 21,
-			phone: "0951683442",
-		},
-		{ firstName: "Bhokin", lastName: "Tumtamai", age: 19, phone: "0951683442" },
-		{
-			firstName: "Poomtum",
-			lastName: "Tumtamai",
-			age: 22,
-			phone: "0951683442",
-		},
-	];
-
 	return (
 		<>
 			<Navbar />
@@ -33,7 +12,8 @@ const User: React.FC = () => {
 					<h1>Users</h1>
 				</div>
 				<div className="user_data__container">
-					<Accordion usersData={usersData} />
+					{/* {JSON.stringify(typeof users[0].phone)} */}
+					<Accordion usersData={users} />
 				</div>
 			</div>
 		</>

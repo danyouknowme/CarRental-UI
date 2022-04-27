@@ -30,7 +30,7 @@ const ControlledAccordions: React.FC<AccordionProps> = ({ usersData }) => {
 						id="panel1bh-header"
 					>
 						<Typography sx={{ width: "33%", flexShrink: 0 }}>
-							{user.firstName} {user.lastName}
+							{user.firstname} {user.lastname}
 						</Typography>
 						<Typography sx={{ color: "text.secondary" }}>
 							Age: {user.age} Phone: {user.phone}

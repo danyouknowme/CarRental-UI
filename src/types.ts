@@ -4,10 +4,10 @@ export interface IFilteredBrand {
 }
 
 export interface IUser {
-  firstName: string;
-  lastName: string;
+  firstname: string;
+  lastname: string;
   age: number;
-  phone: string;
+  phone: string | number;
 }
 
 export interface AccordionProps {

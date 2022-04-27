@@ -1,0 +1,352 @@
+[
+ {
+   "id": 1,
+   "brand": "TOYOTA",
+   "model": "CAMRY YEAR (06-12)",
+   "price": 1400,
+   "userId": 22
+ },
+ {
+   "id": 2,
+   "brand": "TOYOTA",
+   "model": "YARIS YEAR (13-16)",
+   "price": 1800,
+   "userId": 21
+ },
+ {
+   "id": 3,
+   "brand": "TOYOTA",
+   "model": "VIGO CHAMP (YEAR 11-15) SMART CAB",
+   "price": 2000,
+   "userId": 50
+ },
+ {
+   "id": 4,
+   "brand": "TOYOTA",
+   "model": "REVO (YEAR 15-17) PRERUNNER",
+   "price": 1700,
+   "userId": 17
+ },
+ {
+   "id": 5,
+   "brand": "TOYOTA",
+   "model": "HILUX REVO 4X4 DIFF-LOCK 2.8 ENTRY 2021",
+   "price": 2500,
+   "userId": 25
+ },
+ {
+   "id": 6,
+   "brand": "TOYOTA",
+   "model": "FORTUNER YEAR (15-17)",
+   "price": 1900,
+   "userId": 5
+ },
+ {
+   "id": 7,
+   "brand": "TOYOTA",
+   "model": "ALPHARD 2021",
+   "price": 5500,
+   "userId": 32
+ },
+ {
+   "id": 8,
+   "brand": "TOYOTA",
+   "model": "PRIUS YEAR (09-14)",
+   "price": 2100,
+   "userId": 42
+ },
+ {
+   "id": 9,
+   "brand": "ISUZU",
+   "model": "D-MAX (12-15) HI LANDER",
+   "price": 1600,
+   "userId": 23
+ },
+ {
+   "id": 10,
+   "brand": "ISUZU",
+   "model": "D-MAX 2021",
+   "price": 2200,
+   "userId": 34
+ },
+ {
+   "id": 11,
+   "brand": "ISUZU",
+   "model": "D-MAX 2020",
+   "price": 2000,
+   "userId": 49
+ },
+ {
+   "id": 12,
+   "brand": "ISUZU",
+   "model": "ISUZU D-MAX 1.9L DDI HI-LANDER 2020",
+   "price": 2000,
+   "userId": 43
+ },
+ {
+   "id": 13,
+   "brand": "ISUZU",
+   "model": "DMAX 3.0 SPARK 2020",
+   "price": 2600,
+   "userId": 16
+ },
+ {
+   "id": 14,
+   "brand": "ISUZU",
+   "model": "DMAX 1.9 SPARK 2020",
+   "price": 1800,
+   "userId": 1
+ },
+ {
+   "id": 15,
+   "brand": "ISUZU",
+   "model": "D-MAX ALL NEW HI-LANDER 2020",
+   "price": 1700,
+   "userId": 8
+ },
+ {
+   "id": 16,
+   "brand": "ISUZU",
+   "model": "MUX THEICONIC 1.9 DVD NAVI 2019",
+   "price": 1600,
+   "userId": 48
+ },
+ {
+   "id": 17,
+   "brand": "HONDA",
+   "model": "CIVIC YEAR (11-15)",
+   "price": 1400,
+   "userId": 14
+ },
+ {
+   "id": 18,
+   "brand": "HONDA",
+   "model": "HR-V 2020",
+   "price": 2300,
+   "userId": 20
+ },
+ {
+   "id": 19,
+   "brand": "HONDA",
+   "model": "CITY YEAR (14-16)",
+   "price": 1700,
+   "userId": 27
+ },
+ {
+   "id": 20,
+   "brand": "HONDA",
+   "model": "ACCORD YEAR (03-07)",
+   "price": 1100,
+   "userId": 46
+ },
+ {
+   "id": 21,
+   "brand": "HONDA",
+   "model": "CITY YEAR (08-14)",
+   "price": 1300,
+   "userId": 39
+ },
+ {
+   "id": 22,
+   "brand": "HONDA",
+   "model": "NEW HONDA CITY 1.0 TURBO S CVT 2021",
+   "price": 2600,
+   "userId": 13
+ },
+ {
+   "id": 23,
+   "brand": "HONDA",
+   "model": "JAZZ GK 1.5 RS I-VEC 2020",
+   "price": 2200,
+   "userId": 2
+ },
+ {
+   "id": 24,
+   "brand": "HONDA",
+   "model": "CITY 2021",
+   "price": 2400,
+   "userId": 37
+ },
+ {
+   "id": 25,
+   "brand": "MITSUBISHI",
+   "model": "TRITON (YEAR05-14) MEGA CAB",
+   "price": 1800,
+   "userId": 10
+ },
+ {
+   "id": 26,
+   "brand": "MITSUBISHI",
+   "model": "X PENDER CROSS",
+   "price": 2300,
+   "userId": 12
+ },
+ {
+   "id": 27,
+   "brand": "MITSUBISHI",
+   "model": "ATTRAGE 1.2 GLX",
+   "price": 2600,
+   "userId": 7
+ },
+ {
+   "id": 28,
+   "brand": "MITSUBISHI",
+   "model": "1.2 GLX 2020",
+   "price": 2400,
+   "userId": 6
+ },
+ {
+   "id": 29,
+   "brand": "MITSUBISHI",
+   "model": "TRITON 2.5 GL SINGLECAB 2020",
+   "price": 2000,
+   "userId": 40
+ },
+ {
+   "id": 30,
+   "brand": "MITSUBISHI",
+   "model": "TRITON CAB OPENCAB 2.5 GLX 2020",
+   "price": 2000,
+   "userId": 4
+ },
+ {
+   "id": 31,
+   "brand": "MITSUBISHI",
+   "model": "TRITON 2020",
+   "price": 2100,
+   "userId": 41
+ },
+ {
+   "id": 32,
+   "brand": "MITSUBISHI",
+   "model": "XPANDER 2020",
+   "price": 1900,
+   "userId": 47
+ },
+ {
+   "id": 33,
+   "brand": "NISSAN",
+   "model": "NP300 NAVARA (14-17) DOUBLE CAB",
+   "price": 1600,
+   "userId": 30
+ },
+ {
+   "id": 34,
+   "brand": "NISSAN",
+   "model": "NOTE 1.2 V MINOR CHANGE 2020",
+   "price": 2300,
+   "userId": 44
+ },
+ {
+   "id": 35,
+   "brand": "NISSAN",
+   "model": "TIIDA YEAR (06-12)",
+   "price": 1500,
+   "userId": 36
+ },
+ {
+   "id": 36,
+   "brand": "NISSAN",
+   "model": "TEANA",
+   "price": 1600,
+   "userId": 38
+ },
+ {
+   "id": 37,
+   "brand": "NISSAN",
+   "model": "ALMERA 2019",
+   "price": 1800,
+   "userId": 15
+ },
+ {
+   "id": 38,
+   "brand": "NISSAN",
+   "model": "NAVARA KC 2.5 SL",
+   "price": 2000,
+   "userId": 45
+ },
+ {
+   "id": 39,
+   "brand": "NISSAN",
+   "model": "MARCH 1.2 E 2020",
+   "price": 2200,
+   "userId": 18
+ },
+ {
+   "id": 40,
+   "brand": "NISSAN",
+   "model": "NAVARA NP300 2.5 S KING 2020",
+   "price": 2400,
+   "userId": 29
+ },
+ {
+   "id": 41,
+   "brand": "MERCEDES-BENZ",
+   "model": "E-CLASS W 207 (YEAR09-12)",
+   "price": 6700,
+   "userId": 11
+ },
+ {
+   "id": 42,
+   "brand": "MERCEDES-BENZ",
+   "model": "CLK-CLASS W 209",
+   "price": 8100,
+   "userId": 19
+ },
+ {
+   "id": 43,
+   "brand": "MERCEDES-BENZ",
+   "model": "A200 W177",
+   "price": 7800,
+   "userId": 24
+ },
+ {
+   "id": 44,
+   "brand": "MERCEDES-BENZ",
+   "model": "MERCEDES-AMG C43 4MATIC COUPé 2019 2019",
+   "price": 10500,
+   "userId": 28
+ },
+ {
+   "id": 45,
+   "brand": "MERCEDES-BENZ",
+   "model": "E220D 2020",
+   "price": 11500,
+   "userId": 33
+ },
+ {
+   "id": 46,
+   "brand": "MERCEDES-BENZ",
+   "model": "BUSCHASSIS 2019",
+   "price": 9000,
+   "userId": 26
+ },
+ {
+   "id": 47,
+   "brand": "MERCEDES-BENZ",
+   "model": "AMG GT 2015",
+   "price": 15000,
+   "userId": 3
+ },
+ {
+   "id": 48,
+   "brand": "MERCEDES-BENZ",
+   "model": "E350E EXECUTIVE 2019",
+   "price": 8000,
+   "userId": 35
+ },
+ {
+   "id": 49,
+   "brand": "BMW",
+   "model": "I8",
+   "price": 49000,
+   "userId": 9
+ },
+ {
+   "id": 50,
+   "brand": "BMW",
+   "model": "Z4 ROADSTER",
+   "price": 15000,
+   "userId": 31
+ }
+]

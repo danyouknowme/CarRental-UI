@@ -1,34 +1,14 @@
-import React, { useState, useEffect } from "react";
-import { Navbar, FilteredBrand, Card } from "./components";
+import React from "react";
+import { Routes, Route } from "react-router-dom";
 import "./App.scss";
+import { Home, User } from "./pages";
 
 const App: React.FC = () => {
-	const [brandSelected, setBrandSelected] = useState<string>("");
-
-	useEffect(() => {
-		// fetching new data after brand has been changed
-		console.log(brandSelected);
-	}, [brandSelected]);
-
 	return (
-		<>
-			<Navbar />
-			<div className="body__container">
-				<FilteredBrand
-					brandSelected={brandSelected}
-					setBrandSelected={setBrandSelected}
-				/>
-				<div className="grid__container">
-					<Card />
-					<Card />
-					<Card />
-					<Card />
-					<Card />
-					<Card />
-					<Card />
-				</div>
-			</div>
-		</>
+		<Routes>
+			<Route path="/" element={<Home />}></Route>
+			<Route path="/users" element={<User />}></Route>
+		</Routes>
 	);
 };
 

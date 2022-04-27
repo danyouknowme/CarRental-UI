@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Navbar, FilteredBrand, Table } from "../../components";
+import { Navbar, FilteredBrand, Table, AddButton } from "../../components";
 import { ICar } from "../../types";
 import cars from "../../data/cars.json";
 import "./home.scss";
@@ -26,6 +26,7 @@ const Home: React.FC = () => {
 				<div className="table__container">
 					<Table carsData={carsData} />
 				</div>
+				<AddButton />
 			</div>
 		</>
 	);

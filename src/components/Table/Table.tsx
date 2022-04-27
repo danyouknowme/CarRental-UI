@@ -12,7 +12,7 @@ import { generateSearchUrl } from "../../utils/url";
 
 const StyledTableCell = styled(TableCell)(({ theme }) => ({
 	[`&.${tableCellClasses.head}`]: {
-		backgroundColor: theme.palette.common.black,
+		backgroundColor: "#525E75",
 		color: theme.palette.common.white,
 	},
 	[`&.${tableCellClasses.body}`]: {
